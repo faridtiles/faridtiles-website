@@ -1,0 +1,29 @@
+
+.quote-header-div,
+.quote-desc-div,
+.price-header-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.free-quote-header,
+.base-price-header{
+    font-size: 50px;
+    color: rgb(139, 48, 48);
+}
+
+.free-quote-desc{
+    font-size: 30px;
+    width: 50%;
+    color: rgb(139, 48, 48);
+    margin-bottom: 30px;
+}
+
+.here{
+    color: rgb(45, 74, 202);
+    text-decoration: underline;
+}

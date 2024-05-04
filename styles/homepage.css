@@ -1,0 +1,77 @@
+a {
+  text-decoration: none;
+}
+
+.homepage-picture-div{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.homepage-picture{
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.homepage-picture-div .picture-tooltip{
+  position: absolute;
+  color: rgb(170, 41, 41);
+  font-size: 50px;
+  bottom: 70%;
+}
+
+.description-div{
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(139, 48, 48);
+}
+
+.description{
+  font-size: 40px;
+  color: rgb(255, 245, 245);
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.description-pic{
+  width: 40%;
+  margin-right: 10px;
+  margin-left: 10px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.description2-div{
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(255, 245, 245);
+}
+
+.description2{
+  font-size: 40px;
+  color: rgb(139, 48, 48);
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}

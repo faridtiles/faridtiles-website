@@ -1,0 +1,32 @@
+a {
+  text-decoration: none;
+}
+
+.gallery-header-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gallery-header{
+    font-size: 50px;
+    color: rgb(139, 48, 48);
+}
+
+.gallery-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item img:hover{
+    transform: scale(1.05);
+}
