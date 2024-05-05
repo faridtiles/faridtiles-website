@@ -27,3 +27,14 @@
     color: rgb(45, 74, 202);
     text-decoration: underline;
 }
+
+@media all and (width <= 500px) {
+    .free-quote-header,
+    .base-price-header {
+        font-size: 35px;
+    }
+
+    .free-quote-desc {
+        font-size: 20px;
+    }
+}
