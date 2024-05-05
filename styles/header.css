@@ -69,20 +69,14 @@ a {
   background-color: rgb(153, 153, 153);
 }
 
-@media all and (max-width: 550px) and (min-width: 440px){
-  .logo {
-    width: 100%
-  }
-}
-
-@media all and (max-width: 440px) {
-  .logo {
-    width: 120%
-  }
-}
-
-@media all and (width <= 400px) {
+@media all and (width <= 579px){
   .logo {
     width: 50px;
+  }
+}
+
+@media all and (width <= 375px) {
+  .logo {
+    width: 30px;
   }
 }
