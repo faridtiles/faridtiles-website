@@ -30,14 +30,7 @@ a {
 }
 
 .logo {
-  font-size: 30px;
-  font-family: 'Times New Roman';
-  margin-right: 10px;
-  color: red;
-  font-weight: bold;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: grey;
-  white-space: nowrap;
+  width: 35%;
 }
 
 .right-section {
@@ -74,4 +67,22 @@ a {
 .pricing-link:active,
 .gallery-link:active {
   background-color: rgb(153, 153, 153);
+}
+
+@media all and (max-width: 550px) and (min-width: 440px){
+  .logo {
+    width: 100%
+  }
+}
+
+@media all and (max-width: 440px) {
+  .logo {
+    width: 120%
+  }
+}
+
+@media all and (width <= 400px) {
+  .logo {
+    width: 50px;
+  }
 }
